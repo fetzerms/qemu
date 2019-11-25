@@ -2,7 +2,7 @@ Summary: qemu-dm device model
 Name: qemu
 Epoch: 2
 Version: 2.10.2
-Release: 4.2.0%{?dist}
+Release: 4.2.0.1%{?dist}
 License: GPL
 Requires: jemalloc
 Requires: xcp-clipboardd
@@ -159,6 +159,9 @@ cp -r scripts/qmp %{buildroot}%{_datarootdir}/qemu
 %{_libexecdir}/*
 
 %changelog
+* Mon Nov 25 2019 Samuel Verschelde <stormi-xcp@ylix.fr> - 2.10.2-4.2.0.1
+- Try to enable virtio
+
 * Tue Dec 18 2018 Edwin Török <edvin.torok@citrix.com> - 2.10.2-4.1.4
 - CP-29626: Call blk_drain in NVMe reset code to avoid lockups
 - CP-29898: Implement NVME migration workaround
