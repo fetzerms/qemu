@@ -93,6 +93,7 @@ index 4cc64dafa2..f2024c9aa3 100644
 +CONFIG_USB_UHCI=y
 +CONFIG_VGA_CIRRUS=y
 +CONFIG_VGA_PCI=y
++CONFIG_APPLESMC=y
 diff --git a/hw/Makefile.objs b/hw/Makefile.objs
 index 66eef20561..efc8663d75 100644
 --- a/hw/Makefile.objs
