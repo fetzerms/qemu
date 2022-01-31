@@ -59,7 +59,7 @@ diff --git a/default-configs/i386-softmmu.mak b/default-configs/i386-softmmu.mak
 index 4cc64dafa2..f2024c9aa3 100644
 --- a/default-configs/i386-softmmu.mak
 +++ b/default-configs/i386-softmmu.mak
-@@ -25,7 +25,30 @@
+@@ -25,7 +25,31 @@
  
  # Boards:
  #
